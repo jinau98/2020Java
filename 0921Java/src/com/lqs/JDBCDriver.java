@@ -46,7 +46,7 @@ public class JDBCDriver {
 			System.out.println("email : ");
 			String email = reader.readLine();
 			
-			query="INSERT INTO TB_MEMBER(MEM_ID, MEM_PWD, MEM_NAME, MEM_PHONE, MEM_EMAIL) VALUES(?,?,?,?,?)";
+			query="INSERT INTO TB_MEMBER(MEM_ID, MEM_PWD, MEM_NAME, MEM_PHONE, MEM_EMAIL) VALUES (?,?,?,?,?)";
 			
 			pstmt = conn.prepareStatement(query);
 			
