@@ -7,10 +7,10 @@ public class ExHashTable {
 	public static void main(String[] args) {
 		Hashtable<String, String> table = new Hashtable<String, String>();
 		
-		table.put("¹äÇ®", "010-1234-2345");
-		table.put("²Ù¸¶", "010-2131-2342");
-		table.put("ÄÚÄÚ", "010-1232-3456");
-		System.out.println("¹äÇ® : " + table.get("¹äÇ®"));
+		table.put("ê¹€ë°¥í’€", "010-1234-2345");
+		table.put("ìµœê¾¸ë§ˆ", "010-2131-2342");
+		table.put("ì´ì½”ì½”", "010-1232-3456");
+		System.out.println("ìµœê¾¸ë§ˆ : " + table.get("ìµœê¾¸ë§ˆ"));
 		
 		Enumeration<String> keyEnum = table.keys();
 		

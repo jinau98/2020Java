@@ -1,11 +1,11 @@
 public interface Lendable {
-	//»ó¼ö
+	//ìƒìˆ˜
 	public static final int STATE_NORMAL = 0;
-	int STATE_BORROWED = 1; //(public static finalÀÌ ÀÚµ¿À¸·Î ºÙÀ½)
+	int STATE_BORROWED = 1; //(public static finalì´ ìë™ìœ¼ë¡œ ë¶™ìŒ)
 	
-	//¹İ³³ÇÏ´Ù.
+	//ë°˜ë‚©
 	public abstract void checkIn();
 	
-	//´ëÃâÇÏ´Ù (public abstract°¡ ÀÚµ¿À¸·Î ºÙÀ½)
+	//ëŒ€ì¶œ (public abstractê°€ ìë™ìœ¼ë¡œ ë¶™ìŒ)
 	void checkOut(String borrower, String date);
 }

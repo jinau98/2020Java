@@ -1,14 +1,13 @@
-
 public class Account {
-	String accountNo;				//°èÁÂ¹øÈ£
-	String ownerName;				//¿¹±İÁÖ
-	int balance;					//ÀÜ¾×
+	String accountNo;				//ê³„ì¢Œë²ˆí˜¸
+	String ownerName;				//ì˜ˆê¸ˆì£¼
+	int balance;					//ì”ì•¡
 	
-	//Account a = new Account("1234-1234-121-11", "È«±æµ¿", 10000)
+	//Account a = new Account("1234-1234-121-11", "í™ê¸¸ë™", 10000)
 	
 	
-	//»ı¼ºÀÚ
-	//(¸Å°³º¯¼ö ¼¼°¡Áö ¹Ş´Â »ı¼ºÀÚ¸¦ »ı¼ºÇß±â ¶§¹®¿¡ ±âº» »ı¼ºÀÚ(Account a = new Account();)´Â »ı¼ºµÇÁö ¾Ê°í »ç¿ëÇÒ ¼ö ¾øÀ½)
+	//ìƒì„±ì
+	//(ë§¤ê°œë³€ìˆ˜ ì„¸ê°€ì§€ ë°›ëŠ” ìƒì„±ìë¥¼ ìƒì„±í–ˆê¸° ë•Œë¬¸ì— ê¸°ë³¸ ìƒì„±ì(Account a = new Account();)ëŠ” ìƒì„±ë˜ì§€ ì•Šê³  ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ)
 	Account(String accountNo, String ownerName, int balance){
 		this.accountNo = accountNo;
 		this.ownerName = ownerName;
@@ -21,7 +20,7 @@ public class Account {
 	
 	int withdraw(int amount) {
 		if(balance < amount) {
-			System.out.println("ÀÜ¾×ÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+			System.out.println("ì”ì•¡ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 			return 0;
 		}
 		balance-= amount;

@@ -1,10 +1,10 @@
 
 public class Polymorphism {
 	public static void main(String[] args) {
-	Account acc = new Account("123-456-789", "гоюл", 200000);
-	CheckingAccount check = new CheckingAccount("123-345-456", "гоюл", 100000, "1234-2345-3456");
-	CreditLineAccount minus = new CreditLineAccount("135-246-357", "╧ыюл", 500000, 1000000);
-	BonusPointAccount bonus = new BonusPointAccount("124-352-123", "╟М╟М", 700000, 1500);
+	Account acc = new Account("123-456-789", "Й╧─К╟╔М▓─", 200000);
+	CheckingAccount check = new CheckingAccount("123-345-456", "Л╣°Й╬╦К╖┬", 100000, "1234-2345-3456");
+	CreditLineAccount minus = new CreditLineAccount("135-246-357", "Й╧─К╟╔М├╗", 500000, 1000000);
+	BonusPointAccount bonus = new BonusPointAccount("124-352-123", "К╤─К│└", 700000, 1500);
 
 	disp(acc);
 	disp(check);
@@ -15,14 +15,14 @@ public class Polymorphism {
 
 
 public static void disp(Account acc) {
-	System.out.println(">>>>>>>>>>╟Хаб а╓╨╦ цБ╥б<<<<<<<<<<<<");
-	System.out.println("╟Хаб╧Ьхё : " + acc.accountNo);
-	System.out.println("©╧ ╠щ аж  : " + acc.ownerName);
-	System.out.println("юэ      ╬в : " + acc.balance);
+	System.out.println(">>>>>>>>>>ЙЁ└Л╒▄Л═∙КЁ╢<<<<<<<<<<<<");
+	System.out.println("ЙЁ└Л╒▄К╡┬М≤╦: " + acc.accountNo);
+	System.out.println("Л≤┬Й╦┬Лё╪: " + acc.ownerName);
+	System.out.println("Л·■  Л∙║: " + acc.balance);
 	
 	if(acc instanceof BonusPointAccount) {
 		BonusPointAccount bonus = (BonusPointAccount) acc;
-		System.out.println("фВ юн ф╝ : " + bonus.bonusPoint);
+		System.out.println("М▐╛ Л²╦ М┼╦ ф╝ : " + bonus.bonusPoint);
 	}else if(acc instanceof CheckingAccount) {
 		CheckingAccount checkingAccount = (CheckingAccount) acc;
 		checkingAccount.pay("1234-2345-3456", 1000000);

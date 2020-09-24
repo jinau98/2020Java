@@ -1,4 +1,3 @@
-
 public class SeperateVolume implements Lendable {
 
 	String requestNo;
@@ -45,13 +44,13 @@ public class SeperateVolume implements Lendable {
 
 			this.state = STATE_BORROWED;
 
-			System.out.println(" -------- ´ÜÇàº» ´ëÃâ ---------");
+			System.out.println(" -------- ë‹¨í–‰ë³¸ ëŒ€ì¶œ ---------");
 
-			System.out.println("#" + bookTitle + " ´ÜÇàº»ÀÌ ´ëÃâµÇ¾ú½À´Ï´Ù.");
+			System.out.println("#" + bookTitle + " ë‹¨í–‰ë³¸ì´ ëŒ€ì¶œë˜ì—ˆìŠµë‹ˆë‹¤.");
 
 		} else {
 
-			System.out.println("#" + bookTitle + " ´ÜÇàº»Àº ´ëÃâ ºÒ°¡ÇÕ´Ï´Ù.");
+			System.out.println("#" + bookTitle + " ë‹¨í–‰ë³¸ì€ ëŒ€ì¶œ ë¶ˆê°€í•©ë‹ˆë‹¤.");
 
 		}
 

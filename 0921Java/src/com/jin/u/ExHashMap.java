@@ -7,18 +7,18 @@ public class ExHashMap {
 		HashMap<String, Object> map = new HashMap<String, Object>();
 		
 		map.put("id", "bobpul");
-		map.put("name", "±è¹äÇ®");
+		map.put("name", "ê¹€ë°¥í’€");
 		System.out.println("name = " + map.get("name"));
 		map.put("age", 5);
 		map.put("phone", "010-1234-2345");
-		map.put("name", "ÃÖ²Ù¸¶");
+		map.put("name", "ìµœê¾¸ë§ˆ");
 		
 		System.out.println("id = " + map.get("id"));
 		System.out.println("name = " + map.get("name"));
 		System.out.println("age = " + map.get("age"));
 		System.out.println("phone = " + map.get("phone"));
 		
-		System.out.println("---¸Ê¿¡ ´ëÇÑ ¼øÂ÷ Á¢±Ù---");
+		System.out.println("---ë§µì— ëŒ€í•œ ìˆœì°¨ ì ‘ê·¼---");
 		Set<String> keySet = map.keySet();
 		Iterator<String> itr = keySet.iterator();
 		
@@ -28,9 +28,9 @@ public class ExHashMap {
 		}
 		
 		if(map.containsKey("name")) {
-			System.out.println("name Å° Á¸Àç");
+			System.out.println("name í‚¤ ì¡´ì¬");
 		}else {
-			System.out.println("name Å° ¾È Á¸Àç");
+			System.out.println("name í‚¤ ì•ˆ ì¡´ì¬");
 		}
 		
 	}

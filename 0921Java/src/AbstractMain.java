@@ -1,10 +1,9 @@
-
 public class AbstractMain {
 	public static void main(String[] args) {
-		EmailSender email1 = new EmailSender("°áÁ¦¿Ï·á", "12¹ø°¡", "master@12st.co.kr", "ÁÖ¹®ÇÏ½Å »óÇ°ÀÌ °áÁ¦¿Ï·áµÇ¾ú½À´Ï´Ù.");
-		SMSSender sms1 = new SMSSender("°áÁ¦¿Ï·á" , "12¹ø°¡", "02-1212-1212", "ÁÖ¹®ÇÏ½Å »óÇ°ÀÌ °áÁ¦¿Ï·áµÇ¾ú½À´Ï´Ù.");
-		EmailSender email2 = new EmailSender("¹è¼Û¿Ï·á", "12¹ø°¡", "master@12st.co.kr", "ÁÖ¹®ÇÏ½Å »óÇ°ÀÌ ¹è¼Û¿Ï·áµÇ¾ú½À´Ï´Ù.");
-		SMSSender sms2 = new SMSSender("¹è¼Û¿Ï·á", "12¹ø°¡", "02-1212-1212", "ÁÖ¹®ÇÏ½Å »óÇ°ÀÌ ¹è¼Û¿Ï·áµÇ¾ú½À´Ï´Ù.");
+		EmailSender email1 = new EmailSender("ê²°ì œì™„ë£Œ", "12ë²ˆê°€", "master@12st.co.kr", "ì£¼ë¬¸í•˜ì‹  ìƒí’ˆì´ ê²°ì œì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
+		SMSSender sms1 = new SMSSender("ê²°ì œì™„ë£Œ" , "12ë²ˆê°€", "02-1212-1212", "ì£¼ë¬¸í•˜ì‹  ìƒí’ˆì´ ê²°ì œì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
+		EmailSender email2 = new EmailSender("ë°°ì†¡ì™„ë£Œ", "12ë²ˆê°€", "master@12st.co.kr", "ì£¼ë¬¸í•˜ì‹  ìƒí’ˆì´ ë°°ì†¡ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
+		SMSSender sms2 = new SMSSender("ë°°ì†¡ì™„ë£Œ", "12ë²ˆê°€", "02-1212-1212", "ì£¼ë¬¸í•˜ì‹  ìƒí’ˆì´ ë°°ì†¡ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 		
 		send(email1, "jjj@naver.com");
 		send(sms1, "010-1234-2345");

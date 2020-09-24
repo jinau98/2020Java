@@ -10,7 +10,7 @@ public class CreditLineAccount extends Account{
 	
 	int withdraw(int amount) {
 		if((balance + creditLine)<amount) {
-			System.out.println("ÀÎÃâÀÌ ºÒ°¡´ÉÇÕ´Ï´Ù.");
+			System.out.println("ì¸ì¶œí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 			return 0;
 		}
 		balance -= amount;

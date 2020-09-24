@@ -1,3 +1,4 @@
+  
 package com.jin.u;
 
 import java.util.*;
@@ -7,42 +8,42 @@ public class ExArrayList {
 	public static void main(String[] args) {
 		List<String> listUpcasting = new ArrayList<String>();
 
-		// Á¦³Ê¸¯ <T>
+		// ì œë„ˆë¦­ <T>
 		//
 		ArrayList<String> list = new ArrayList<String>();
 		// ArrayList<String> list = new ArrayList<>();
 
-		String name = "ÀÌ¸§";
-		list.add("ÀÌ¸§1");
+		String name = "ì´ë¦„";
+		list.add("ì´ë¦„1");
 		list.add(name);
-		list.add("ÀÌ¸§2");
-		list.add("ÀÌ¸§3");
-		// list.add(1); //ÀÌ°Å ¿À·ù
+		list.add("ì´ë¦„2");
+		list.add("ì´ë¦„3");
+		// list.add(1); //ì´ê±° ì˜¤ë¥˜
 
-		String str = "ÀÌ¸§";
+		String str = "ì´ë¦„";
 
 		if (list.contains(str)) {
-			System.out.println(str + "ÀÌ Á¸ÀçÇÕ´Ï´Ù.");
+			System.out.println(str + "ì´ ì¡´ì¬í•©ë‹ˆë‹¤.");
 		} else {
-			System.out.println(str + "ÀÌ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+			System.out.println(str + "ì´ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		}
 
-		list.add("ÀÌ¸§ÀÌ¸§");
+		list.add("ì´ë¦„ì´ë¦„");
 
-		System.out.println("»èÁ¦Àü");
+		System.out.println("ì‚­ì œì „");
 		if (list != null && !list.isEmpty()) {
 			for (int i = 0; i < list.size(); i++) {
 				String pname = list.get(i);
-				System.out.println(i + "¹øÂ° ¿ä¼Ò : " + pname);
+				System.out.println(i + "ë²ˆì§¸ ìš”ì†Œ : " + pname);
 			}
 		}
-		list.remove("name"); // Ã¹¹øÂ° ¿ä¼Ò »èÁ¦
+		list.remove("name"); // ì²«ë²ˆì§¸ ìš”ì†Œ ì‚­ì œ
 
-		System.out.println("»èÁ¦ÈÄ");
+		System.out.println("ì‚­ì œí›„");
 		if (list != null && !list.isEmpty()) {
 			for (int i = 0; i < list.size(); i++) {
 				String pname = list.get(i);
-				System.out.println(i + "¹øÂ° ¿ä¼Ò : " + pname);
+				System.out.println(i + "ë²ˆì§¸ ìš”ì†Œ : " + pname);
 			}
 		}
 		

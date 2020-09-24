@@ -10,7 +10,7 @@ public class CheckingAccount extends Account{
 	
 	int pay(String cardNo, int amount) {
 		if(!cardNo.equals(this.cardNo) || (balance<amount)){
-			System.out.println("ÁöºÒÀÌ ºÒ°¡´ÉÇÕ´Ï´Ù.");
+			System.out.println("ê²°ì œí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤");
 			return 0;
 		}
 		return withdraw(amount);

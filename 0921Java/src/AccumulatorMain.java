@@ -1,14 +1,14 @@
-class Accumulator{				//ÆÄÀÏÀÇ ÀÌ¸§°ú ´Ù¸¥°Ô ÁÁÀ½
+class Accumulator{				//íŒŒì¼ì˜ ì´ë¦„ê³¼ ë‹¤ë¥¸ê²Œ ì¢‹ìŒ
 	int total;					
-	static int grandTotal;		//staticÀÌ ºÙ°í ¾È ºÙ°í¿¡ µû¶ó »ı¼º ½ÃÁ¡ÀÌ ´Ù¸§ staticÀº Å¬·¡½º°¡ ·ÎµùµÉ ¶§ »ı¼º
+	static int grandTotal;		//staticì´ ë¶™ê³  ì•ˆ ë¶™ê³ ì— ë”°ë¼ ìƒì„± ì‹œì ì´ ë‹¤ë¦„ staticì€ í´ë˜ìŠ¤ê°€ ë¡œë”©ë  ë•Œ ìƒì„±
 	
-	//¸â¹ö ¸Ş¼­µå, ÀÎ½ºÅÏ½º ¸Ş¼­µå
+	//ë©¤ë²„ ë©”ì„œë“œ, ì¸ìŠ¤í„´ìŠ¤ ë©”ì„œë“œ
 	void accumulate(int amount) {
 		total += amount;
 		grandTotal += amount;
 	}
 	
-	//Å¬·¡½Ä ¸Ş¼­µå(static method)
+	//í´ë˜ì‹ ë©”ì„œë“œ(static method)
 	static int getGrandTotal() {
 		return grandTotal;
 	}

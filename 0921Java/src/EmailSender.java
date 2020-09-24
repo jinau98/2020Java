@@ -1,4 +1,3 @@
-
 public class EmailSender extends MessageSender {
 	String senderAddr;
 	String emailBody;
@@ -11,12 +10,12 @@ public class EmailSender extends MessageSender {
 	
 	@Override
 	void sendMessage(String recipient) {
-		System.out.println(">>>>>>>>>ÀÌ¸ÞÀÏ Àü¼Û<<<<<<<<<<<<");
-		System.out.println("Á¦     ¸ñ : " + title);
-		System.out.println("¹ß ½Å ÀÚ : " + senderName);
-		System.out.println("¼ö ½Å ÀÚ : " + recipient);
-		System.out.println("¹ß½ÅÀÚÁÖ¼Ò : " + senderAddr);
-		System.out.println("³»      ¿ë : " + emailBody);
+		System.out.println(">>>>>>>>>ì´ë©”ì¼ ì „ì†¡<<<<<<<<<<<<");
+		System.out.println("ì œ     ëª© : " + title);
+		System.out.println("ë°œ ì‹  ìž : " + senderName);
+		System.out.println("ìˆ˜ ì‹  ìž : " + recipient);
+		System.out.println("ë°œì‹ ìžì£¼ì†Œ : " + senderAddr);
+		System.out.println("ë‚´      ìš© : " + emailBody);
 		System.out.println();
 	}
 }

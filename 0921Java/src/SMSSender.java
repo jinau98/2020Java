@@ -11,12 +11,12 @@ public class SMSSender extends MessageSender {
 	
 	@Override
 	void sendMessage(String recipient) {
-		System.out.println(">>>>>>>¹®ÀÚ ¸Þ½ÃÁö Àü¼Û<<<<<<<<");
-		System.out.println("Á¦     ¸ñ : " + title);
-		System.out.println("¹ß ½Å ÀÚ : " + senderName);
-		System.out.println("¼ö ½Å ÀÚ : " + recipient);
-		System.out.println("È¸½ÅÀüÈ­ : " + returnPhoneNo);
-		System.out.println("³»     ¿ë : " + message);
+		System.out.println(">>>>>>>ë¬¸ìž ë©”ì‹œì§€ ì „ì†¡<<<<<<<<");
+		System.out.println("ì œ     ëª© : " + title);
+		System.out.println("ë°œ ì‹  ìž : " + senderName);
+		System.out.println("ìˆ˜ ì‹  ìž : " + recipient);
+		System.out.println("íšŒì‹ ì „í™” : " + returnPhoneNo);
+		System.out.println("ë‚´     ìš© : " + message);
 		System.out.println();
 	}
 }

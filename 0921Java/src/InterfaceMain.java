@@ -4,13 +4,13 @@ public class InterfaceMain {
 		
 	
 	Lendable[] lendList= {
-			new SeperateVolume("789-95", "¿⁄πŸ"),
-			new AppCDInfo("∞°-4345", "CD1"),
+			new SeperateVolume("789-95", "ÏûêÎ∞î"),
+			new AppCDInfo("Í∞Ä-4953", "CD1"),
 			new SeperateVolume("234-45", "sql"),
-			new AppCDInfo("≥™-2342", "CD2")
+			new AppCDInfo("ÎÇò-2342", "CD2")
 	};
 	
-	checkOutAll(lendList, "«œ¿Ã", "2020-09-22");
+	checkOutAll(lendList, "Î∞•ÌíÄ", "2020-09-22");
 	}
 	
 	public static void checkOutAll(Lendable[] lendList, String borrower, String date) {

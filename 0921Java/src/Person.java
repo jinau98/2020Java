@@ -1,6 +1,6 @@
 
 public class Person {
-	//¸â¹ö ÇÊµå(¸â¹ö º¯¼ö)
+	//ë©¤ë²„í•„ë“œ(=ë©¤ë²„ë³€ìˆ˜)
 	String name;
 	int age;
 	char gender;

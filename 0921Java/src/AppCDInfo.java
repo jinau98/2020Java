@@ -22,10 +22,10 @@ public class AppCDInfo extends CDInfo implements Lendable {
 			this.date = date;
 			this.state = STATE_BORROWED;
 
-			System.out.println(" -------- ºÎ·Ï CD ´ëÃâ ---------");
-			System.out.println("#" + title + " CD°¡ ´ëÃâµÇ¾ú½À´Ï´Ù.");
+			System.out.println(" -------- ë¶€ë¡ CD ëŒ€ì¶œ ---------");
+			System.out.println("#" + title + " CDê°€ ëŒ€ì¶œë˜ì—ˆìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("#" + title + " CD´Â ´ëÃâ ºÒ°¡ÇÕ´Ï´Ù.");
+			System.out.println("#" + title + " CDëŠ” ëŒ€ì¶œ ë¶ˆê°€í•©ë‹ˆë‹¤.");
 		}
 		System.out.println();
 	}

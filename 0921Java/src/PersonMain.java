@@ -2,7 +2,7 @@
 public class PersonMain {
 	public static void main(String[] args) {
 		Person p1 = new Person();
-		p1.name="½Â°ü";
+		p1.name="ìŠ¹ê´€";
 		p1.age=23;
 		p1.gender='M';
 		
@@ -13,7 +13,7 @@ public class PersonMain {
 		System.out.println();
 		
 		Person p2 = new Person();
-		p2.name = "½ÂÈñ";
+		p2.name = "ìŠ¹í¬";
 		
 		System.out.println("p2 name : " + p2.name);
 		System.out.println("p2 age : " + p2.age);
@@ -23,7 +23,7 @@ public class PersonMain {
 		
 		Person p3 = new Person();
 		
-		p3.setName("¾Æ¸°");
+		p3.setName("ì•„ë¦°");
 		p3.setAge(20);
 		p3.setGender('F');
 		p3.setPhone("010-1234-2345");
@@ -33,7 +33,7 @@ public class PersonMain {
 		System.out.println("phone : " + p3.getPhone());
 		System.out.println();
 		
-		Person p4 = new Person("ÀÌ¼®¹Î", 24, 'M', "010-1997-0218");
+		Person p4 = new Person("ì´ì„ë¯¼", 24, 'M', "010-1997-0218");
 		
 		System.out.println("name : "+ p4.getName());
 		System.out.println("age : " + p4.getAge());

@@ -1,29 +1,26 @@
-
 public class InheritanceMain {
 	public static void main(String[] args) {
-		CheckingAccount check= new CheckingAccount("123-456-7890", "Á¤Á¤", 200000, "9876-5432-1234");
+		CheckingAccount check= new CheckingAccount("123-456-7890", "ì •ì •", 200000, "9876-5432-1234");
 		
 		int money = check.withdraw(50000);
-		System.out.println("ÀÎÃâµÈ ±İ¾× : " + money);
-		System.out.println("ÀÜ           ¾× : " + check.balance);
+		System.out.println("ì¸ì¶œëœ ê¸ˆì•¡ : " + money);
+		System.out.println("ì”           ì•¡ : " + check.balance);
 		
 		money = check.pay("9876-5432-1234", 150001);
-		System.out.println("ÁöºÒ ±İ¾× : " + money);
-		System.out.println("ÀÜ        ¾× : " + check.balance);
+		System.out.println("ì§€ë¶ˆ ê¸ˆì•¡ : " + money);
+		System.out.println("ì”        ì•¡ : " + check.balance);
 		
-		CreditLineAccount credit = new CreditLineAccount("123-456-7890", "ÁøÁø", 200000, 200000);
+		CreditLineAccount credit = new CreditLineAccount("123-456-7890", "ì§„ì§„", 200000, 200000);
 		
 		money = credit.withdraw(500000);
-		System.out.println("ÀÎÃâÇÒ ±İ¾× : " + money);
-		System.out.println("ÀÜ           ¾× : " + credit.balance);
+		System.out.println("ì¸ì¶œí•  ê¸ˆì•¡ : " + money);
+		System.out.println("ì”           ì•¡ : " + credit.balance);
 		
-		BonusPointAccount bonus = new BonusPointAccount("123-456-6796", "À¯À¯", 1000000, 10);
+		BonusPointAccount bonus = new BonusPointAccount("123-456-6796", "ìœ ìœ ", 1000000, 10);
 		
 		bonus.deposit(500000);
-		System.out.println("ÀÜ     ¾× : " + bonus.balance);
-		System.out.println("Æ÷ ÀÎ Æ® : " + bonus.bonusPoint);
+		System.out.println("ì”     ì•¡ : " + bonus.balance);
+		System.out.println("í¬ ì¸ íŠ¸ : " + bonus.bonusPoint);
 		
 	}
 }
-
-
